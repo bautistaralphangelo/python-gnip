@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='pygnip',
-    version='1.0.1.a1',
+    version='1.0.2.a1',
     keywords=['gnip api powertrack'],
     url='https://github.com/benjiao/python-gnip',
     license='BSD',

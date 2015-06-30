@@ -1,6 +1,10 @@
 # Python Gnip
 A python wrapper for the Gnip API.
 
+## API Documentation
+
+http://pythonhosted.org/pygnip/
+
 ## Installation
 
 #### via Pip
@@ -42,7 +46,6 @@ Remove Rule
 ```
 gnip.removeRule(rule="Filter OR Filters")
 ```
-
 
 ----
 To Run Tests (`python setup.py test`)
