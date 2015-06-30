@@ -69,15 +69,16 @@ class GnipPowerTrack(object):
 
         url = self._buildRulesURL()
 
-        rules_str = '{"rules": [{"value":' + value + '}]}'
-        print rules_str
+        rules_str = '{"rules":[{"value":"' + value + '"}]}'
+        # print "URL: " + url
+        # print "Rules: " + rules_str
 
-        req = Request2(url, 'DELETE', data=rules_str)
+        req = Request2(url, "DELETE", data=rules_str)
 
         req.add_header('Content-type', 'application/json')
         req.add_header("Authorization", "Basic %s" % self.GNIP_AUTH_STRING)
         response = urllib2.urlopen(req)
-        print response.read()
+        str(response.read())
 
         return True
 
