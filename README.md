@@ -42,3 +42,16 @@ Remove Rule
 ```
 gnip.removeRule(rule="Filter OR Filters")
 ```
+
+
+----
+To Run Tests (`python setup.py test`)
+
+1. Create a file called `.gnipvars` with the following lines:
+```
+export GNIP_ACCOUNT_NAME=<your-gnip-account-name>
+export GNIP_USERNAME=<your-gnip-username>
+export GNIP_PASSWD=<your-gnip-password>
+```
+
+2. Type in `source .gnipvars` to activate environment variables
