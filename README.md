@@ -8,10 +8,11 @@ A python wrapper for the Gnip API.
 pip install pygnip
 ```
 
-#### Manually
+#### From Source
 ```
-git clone git@github.com:benjiao/python-gnip.git
-cd python-gnip
+wget https://github.com/benjiao/python-gnip/archive/pygnip-v1.0.1.a1.tar.gz
+tzr -xvzf pygnip-v1.0.1.a1.tar.gz
+cd pygnip-v1.0.1.a1
 python setup.py build
 python setup.py install
 ```
