@@ -1,6 +1,0 @@
-pygnip.pygnip.GnipPowerTrack	pygnip.pygnip.GnipPowerTrack-class.html
-pygnip.pygnip.GnipPowerTrack.removeRule	pygnip.pygnip.GnipPowerTrack-class.html#removeRule
-pygnip.pygnip.GnipPowerTrack.getRules	pygnip.pygnip.GnipPowerTrack-class.html#getRules
-pygnip.pygnip.GnipPowerTrack.addRule	pygnip.pygnip.GnipPowerTrack-class.html#addRule
-pygnip.pygnip.GnipPowerTrack._buildRulesURL	pygnip.pygnip.GnipPowerTrack-class.html#_buildRulesURL
-pygnip.pygnip.GnipPowerTrack.__init__	pygnip.pygnip.GnipPowerTrack-class.html#__init__
