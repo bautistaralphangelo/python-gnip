@@ -65,6 +65,23 @@ class GnipPowerTrack(object):
         self._sendPowertrackRequest(method="DELETE", data=rules_str)
         return True
 
+    def removeRules(self, rules):
+        """ Removes multiple rules from a Gnip PowerTrack Stream
+
+            @param rules: A list of rules to be deleted
+            @type value: list() of strings
+
+            @return: True if successful
+        """
+
+        if not isinstance(rules, list):
+            raise ValueError("rules has to be a list of strings")
+
+        rules_str = '{{"rules":"[{0}]"}}'.format(', '.join("'{0}'".format(r) for r in rules))
+        print rules_str
+        self._sendPowertrackRequest(method="DELETE", data=rules_str)
+        return True
+
     def getRules(self):
         """ Retrieves all rules associated with a PowerTrack Stream
 
