@@ -36,6 +36,10 @@ gnip = GnipPowerTrack(account_name="account-name",
 ```
 gnip.addRule(tag="yourcustomtag",
              value="Filter OR Filters")
+
+# Samples with quotation marks
+gnip.addRule(tag="tag2", value='("TESTFILTER1" OR "TESTFILTER")')
+gnip.addRule(tag="tag3", value="(\"TESTFILTER2\" OR \"TESTFILTER3\")")
 ```
 
 * Remove Rule

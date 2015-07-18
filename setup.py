@@ -14,7 +14,7 @@ setup(
     author_email='benjiao12@gmail.com',
     description='A wrapper for the Gnip API',
     long_description=__doc__,
-    py_modules=['pygnip.pygnip'],
+    packages=['pygnip'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
